@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluckin Bell</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../img/clk_bell-logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="navbar-logo" src="../img/clk_bell-logo.png" alt="Logo">
+        <nav>
+            <a href="#">Trabaja con Nosotros</a>
+            <a href="#">Menú</a>
+            <a href="#">Ubicaciones</a>
+        </nav>
+    </header>
+    
+    <h1>Menus</h1>
+
+    <main>
+        <div class="card">
+            <img src="../img/menu-01.png" alt="Avatar">
+            <div class="container">
+                <h4><b>Cluckin' Little Meal</b></h4>
+                <article>$2</article>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/menu-02.png" alt="Avatar">
+            <div class="container">
+                <h4><b>Cluckin' Big Meal</b></h4>
+                <article>$5</article>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/menu-03.png" alt="Avatar">
+            <div class="container">
+                <h4><b>Cluckin' Huge Meal</b></h4>
+                <article>$10</article>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/menu-04.png" alt="Avatar">
+            <div class="container">
+                <h4><b>Salad Meal</b></h4>
+                <article>$12</article>
+            </div>
+        </div> 
+    </main>
+
+    <section id="Form-job">
+        <h2>Formulario de Solicitud Laboral</h2>
+        <form action="https://example.com/submit" method="post">
+            <fieldset>
+                <label for="Nombre"></label>
+                <input class="input-form" type="text" name="Nombre" id="Nombre" required placeholder="Nombre">
+            </fieldset>
+            <fieldset>
+                <label for="Apellido"></label>
+                <input class="input-form" type="text" name="Apellido" id="Apellido" required placeholder="Apellido">
+            </fieldset>
+            <fieldset>
+                <label for="Edad"></label>
+                <input class="input-form" type="number" name="Edad" id="Edad" required placeholder="Edad">
+            </fieldset>
+            <fieldset>
+                <label for="Correo"></label>
+                <input class="input-form" type="email" name="Correo" id="Correo" required placeholder="example@gmail.com">
+            </fieldset>
+            <fieldset>
+                <label for="Country"></label>
+                <select id="Country" name="Country" required>
+                    <option value="">Elige tu pais</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Peru">Perú</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Ecuador">Ecuador</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="Texto"></label>
+                <textarea name="Texto" id="Texto" cols="20" rows="10" placeholder="Ingrese su mensaje..." required></textarea>
+            </fieldset>
+            <fieldset>
+                <label id="lbl-confirm" for="Confirm">Acepto los terminos y condiciones</label>
+                <input type="checkbox" id="Confirm" required>
+            </fieldset>
+            <fieldset>
+                <button class="btms-form" type="submit">Enviar</button>
+                <button class="btms-form" type="reset">Reescribir</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <section id="Ubi-shop">
+        <h2>Nos puedes encontrar en:</h2>
+        
+    </section>
+
+</body>
+
+</html>
